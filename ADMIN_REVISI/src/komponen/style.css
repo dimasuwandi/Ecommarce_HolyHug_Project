@@ -1,0 +1,333 @@
+/* LOGIN */
+
+
+/* source:https://bootsnipp.com/snippets/Ekde7 */
+
+.login-page {
+    width: 360px;
+    padding: 0% 0 0;
+    margin: auto;
+}
+
+#head {
+    font-family: concert one;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #3d3d3d;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #e84c3d;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button span {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.form .message {
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    font-family: 'Open Sans', sans-serif;
+    color: #e84c3d;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: #EF3B3A;
+}
+
+
+/* ----------------------------------REGIS---------------------------------- */
+
+#regis {
+    color: white
+}
+
+
+/* ----------------------------------Product.JS---------------------------------- */
+
+#img {
+    width: 80px;
+    height: 80px;
+}
+
+#settings {
+    width: 130px;
+}
+
+
+/* ----------------------------------Product.JS---------------------------------- */
+
+#img2 {
+    width: 170%;
+    /* height: 0%; */
+    margin-left: -20%;
+}
+
+
+/* -----------------------------------------------CHECKOUT---------------------------------------------- */
+
+a.continue {
+    background: rgb(98, 169, 192);
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/* a.continue:hover {
+    background: rgb(80, 131, 199);
+} */
+
+.price-details {
+    border-bottom: 1px solid #DDD9D9;
+    padding-bottom: 5px;
+}
+
+.price-details h3 {
+    color: #000;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    /* margin-left: 0px; */
+}
+
+.price-details span {
+    width: 50%;
+    float: left;
+    font-size: 0.8125em;
+    color: #000;
+    line-height: 1.8em;
+    /* text-align: left; */
+    /* margin-left: 10px; */
+}
+
+.total_price {
+    margin-top: 8px;
+    /* margin-left: -70px; */
+}
+
+.total_price .last_price {
+    width: 50%;
+    float: left;
+    margin-top: -7px;
+}
+
+#totalharga {
+    font-size: 20px;
+    /* margin-top: 10000px; */
+    color: #000;
+}
+
+a.order {
+    background: #8ce78a;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin: 3em 0;
+}
+
+a.order:hover {
+    background: #000;
+}
+
+.total-item,
+.cart-items {
+    margin-top: 0em;
+    padding-bottom: 2em;
+}
+
+.total-item h3 {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.total-item h4 {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #9C9C9C;
+    display: inline-block;
+    margin-right: 6em;
+}
+
+a.cpns {
+    /* background: #7dcf7c; */
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a.cpns:hover {
+    background: rgb(80, 131, 199);
+}
+
+.total-item p {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.total-item p a {
+    color: #727272;
+}
+
+.total-item p a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.total-item h4 {
+    margin-right: 4em;
+}
+
+#imgcheck {
+    width: 30%;
+    height: 30%;
+    margin-left: -80%;
+}
+
+#foot {
+    margin-top: 90%;
+}
+
+
+/* ----------------------------------Product.JS---------------------------------- */
+
+#img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* ---------------------------------------------ADD TO CART------------------------------- */
+
+.imgcart {
+    width: 300px;
+    height: 300px;
+}
+
+#containercart {
+    margin-left: -15%;
+}
+
+
+/* ---------------------------------------------UPLOAD BUKTI------------------------------- */
+
+#img2 {
+    width: 60%;
+    height: 60%;
+}
